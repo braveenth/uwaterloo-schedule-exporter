@@ -200,4 +200,7 @@ $('.SSSTABACTIVE').each(function() {
   if ($(this).text() === 'my class schedule') {
     main();
   }
+  else {
+    throw "Please go to Enroll/My Class Schedule"
+  }
 });
